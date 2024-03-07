@@ -4,14 +4,7 @@ import { Button as VantButton } from 'vant'
 
 <template>
   <div>
-    <VantButton type="primary">按钮</VantButton>
-    <VantButton class="main">按钮</VantButton>
-    <VantButton class="footer">按钮</VantButton>
+    <VantButton type="primary">登录</VantButton>
+    <VantButton type="primary">退出</VantButton>
   </div>
 </template>
-
-<style scoped lang="scss">
-.main {
-  color: var(--cp-primary);
-}
-</style>
