@@ -1,5 +1,5 @@
 /* eslint-env node */
-require('@rushstack/eslint-  patch/modern-module-resolution')
+require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
@@ -14,20 +14,20 @@ module.exports = {
     'vue/setup-compiler-macros': true
   },
   rules: {
-     'prettier/prettier':[
+    'prettier/prettier': [
       'warn',
       {
-        singleQuote:true,     //使用单引号
-        semi: false,          //结尾不使用分号
-        printWidth:80,        //宽度80字符
-        trailingComma:'none', //不加对象|数组最后逗号
-        endOfLine:'auto'      //换行符号不限制(win mac不一致)
+        singleQuote: true, //使用单引号
+        semi: false, //结尾不使用分号
+        printWidth: 80, //宽度80字符
+        trailingComma: 'none', //不加对象|数组最后逗号
+        endOfLine: 'auto' //换行符号不限制(win mac不一致)
       }
     ],
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: ['index']      //忽略index.vue文件的命名规范,因为.vue文件要求驼峰命名
+        ignores: ['index'] //忽略index.vue文件的命名规范,因为.vue文件要求驼峰命名
       }
     ],
     // 支持对 Props 解构
